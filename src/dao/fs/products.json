@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "title": "Barrita de Cereal A",
+    "description": "Deliciosa barrita de cereal sabor a frutas",
+    "price": 1.99,
+    "thumbnails": ["barrita_a.jpg"],
+    "code": "BC001",
+    "stock": 50,
+    "status": true,
+    "category": "Frutas"
+  },
+  {
+    "id": 2,
+    "title": "Barrita de Cereal B",
+    "description": "Barrita de avena con trozos de chocolate",
+    "price": 2.49,
+    "thumbnails": ["barrita_b.jpg"],
+    "code": "BC002",
+    "stock": 30,
+    "status": true,
+    "category": "Chocolate"
+  },
+  {
+    "id": 3,
+    "title": "Barrita de Cereal C",
+    "description": "Barrita energética con frutos secos",
+    "price": 2.99,
+    "thumbnails": ["barrita_c.jpg"],
+    "code": "BC003",
+    "stock": 20,
+    "status": true,
+    "category": "Frutos secos"
+  },
+  {
+    "id": 4,
+    "title": "Barrita de Cereal D",
+    "description": "Barrita de avena y miel",
+    "price": 1.79,
+    "thumbnails": ["barrita_d.jpg"],
+    "code": "BC004",
+    "stock": 45,
+    "status": true,
+    "category": "Miel"
+  },
+  {
+    "id": 5,
+    "title": "Barrita de Cereal E",
+    "description": "Barrita con arándanos y almendras",
+    "price": 2.29,
+    "thumbnails": ["barrita_e.jpg"],
+    "code": "BC005",
+    "stock": 25,
+    "status": true,
+    "category": "Arándanos"
+  },
+  {
+    "id": 6,
+    "title": "Barrita de Cereal F",
+    "description": "Barrita de quinoa y frutas tropicales",
+    "price": 3.49,
+    "thumbnails": ["barrita_f.jpg"],
+    "code": "BC006",
+    "stock": 15,
+    "status": true,
+    "category": "Frutas tropicales"
+  },
+  {
+    "id": 7,
+    "title": "Barrita de Cereal G",
+    "description": "Barrita con semillas de chía y yogurt",
+    "price": 2.79,
+    "thumbnails": ["barrita_g.jpg"],
+    "code": "BC007",
+    "stock": 35,
+    "status": true,
+    "category": "Semillas de chía"
+  },
+  {
+    "id": 8,
+    "title": "Barrita de Cereal H",
+    "description": "Barrita integral con frutas deshidratadas",
+    "price": 3.99,
+    "thumbnails": ["barrita_h.jpg"],
+    "code": "BC008",
+    "stock": 10,
+    "status": true,
+    "category": "Frutas deshidratadas"
+  },
+  {
+    "id": 9,
+    "title": "Barrita de Cereal I",
+    "description": "Barrita sin azúcar añadido, ideal para dietas",
+    "price": 2.99,
+    "thumbnails": ["barrita_i.jpg"],
+    "code": "BC009",
+    "stock": 40,
+    "status": true,
+    "category": "Sin azúcar"
+  },
+  {
+    "id": 10,
+    "title": "Barrita de Cereal J",
+    "description": "Barrita con trozos de frutas exóticas",
+    "price": 4.49,
+    "thumbnails": ["barrita_j.jpg"],
+    "code": "BC010",
+    "stock": 18,
+    "status": true,
+    "category": "Frutas exóticas"
+  },
+  {
+    "id": 11,
+    "title": "Barrita de Cereal k",
+    "description": "Barrita con trozos de cítricos",
+    "price": 5.49,
+    "thumbnails": ["barrita_k.jpg"],
+    "code": "BC011",
+    "stock": 18,
+    "status": true,
+    "category": "Cítricos"
+  }
+]

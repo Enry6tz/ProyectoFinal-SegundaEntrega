@@ -1,0 +1,28 @@
+<main class="container mt-4">
+    <section class="row">    
+        {{#each products}}
+        {{#if status}}
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    {{#if stock}}
+                    <span class="badge badge-success mb-2">IN STOCK</span>
+                    {{else}}
+                    <span class="badge badge-danger mb-2">OUT OF STOCK</span>
+                    {{/if}}
+                    <h3 class="card-title">{{title}}</h3>
+                    <img class="card-img-top" src="../assets/images/store/{{thumbnail}}" alt="{{title}}">
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <div>
+                            <h4 class="card-text">From ${{price}}</h4>
+                        </div>
+                        <button class="btn btn-primary" id="{{id}}">Buy</button>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        {{/if}}
+        {{/each}}
+    </section>
+</main>
+

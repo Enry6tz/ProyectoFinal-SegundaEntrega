@@ -1,0 +1,18 @@
+<section class="container mt-4">
+    <h1 class="text-primary">Cart Details</h1>
+    <span class="mb-3 d-block">Cart ID: {{cartId}}</span>
+    <ul class="list-group">
+        {{#each products }}
+        <li class="list-group-item">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <p class="mb-1">Product title: {{ this.product.title }}</p>
+                    <p class="mb-1">Category: {{ this.product.category }}</p>
+                    <p class="mb-1">Price: ${{ this.product.price }}</p>
+                    <p class="mb-0">Quantity: {{ this.quantity }}</p>
+                </div>
+            </div>
+        </li>
+        {{/each}}
+    </ul>
+</section>
